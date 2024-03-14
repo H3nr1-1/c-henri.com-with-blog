@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cedarville+Cursive&display=swap');
+
+
+body {
+    margin: 0;
+    overflow: hidden;
+    overflow-y:auto;
+    color:white;
+    position: relative;
+}
+
+#video-background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    z-index: -1;
+}
+
+.container{
+    margin: 0 auto;
+    max-width:100%;
+}
+
+header{
+    font-family: "Barlow", sans-serif;
+    text-align: center;
+    text-shadow: 3px 3px firebrick;
+    padding: 5%;
+}
+
+.return{
+    color: firebrick;
+    text-shadow: 1px 1px red;
+}
+
+.intro{
+    border: 10px inset firebrick;
+    border-radius: 5%;
+    text-align: center;
+    background: antiquewhite;
+    font-family:"Barlow", sans-serif;
+    color: black;
+}
+
+section{
+    margin-top: 10%;
+}
+
+.blog_content{
+    border: 10px ridge firebrick;
+    font-family: "Cedarville Cursive", cursive;
+    box-shadow: 0px 0px 20px black;
+    font-size: 125%;
+    background: antiquewhite;
+    opacity: 80%;
+    color: black;
+    padding:2%;
+}
+
+.blog{
+    border:5px outset black;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding: 2%;
+    color:black;
+}
+
+h2{
+    text-align: center;
+    font-family:"Barlow", sans-serif;
+    text-shadow: 1px 1px 5% black;
+}
+
+h3{
+    text-align: center;
+    font-family:"Barlow", sans-serif;
+}
+
+.login_content{
+    border: 10px inset firebrick;
+    border-radius: 5%;
+    font-family: "Barlow", sans-serif;
+    box-shadow: 0px 0px 20px black;
+    font-size: 125%;
+    background: antiquewhite;
+    color: black;
+    padding:2%;
+}
+
+.login{
+    text-align: center;
+}
+
+#entry{
+    font-family: "Barlow", sans-serif;
+    margin: 0 auto;
+    display:block;
+}
+
+footer{
+    font-family: "Barlow", sans-serif;
+    font-size: smaller;
+    margin-top: 5%;
+    padding:3%;
+}

@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>	
+        <meta charset="utf-8">
+            <!-- Important Meta info -->
+            <meta name="description" content="Find my on Github, Twitter, X and LinkedIn, or email me: henri@c-henri.com">
+            <meta name="keywords" content="Website Developement, Website Design, Manitowoc, Wisconsin, Web Developement">
+            <meta name="geo.placename" content="Manitowoc, Wisconsin, USA">
+            <meta name="robots" content="index, follow">
+            <meta http-equiv="Content-Language" content="en">
+            <meta property="og:site_name" content="© Chris Henrickson Web Designer">
+            <meta property="og:type" content="website">
+            <meta property="og:title" content="Contact Me - © Chris Henrickson Web Designer">
+            <meta property="og:url" content="https://www.c-henri.com/contact">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Links to jQuery and Stylesheets -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+            <script src="validation.js"></script>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="stylesheet.css" type="text/css">
+            <!-- Page title and logo -->
+            <link rel="icon" href="Images/my-logo.png" type="image/x-icon">
+            <title>Chris Henrickson - Front-End Web Developer - My Portfolio</title>
+    </head> 
+        
+	    <body>
+            <div class="container">	
+                    
+                <header>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-6">
+                            <img class="logo" src="Images/my-logo-2.png" alt="my logo">
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </header>
+           
+                <nav class="navbar navbar-dark fixed-top">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler right" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"           aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="business.html">Web Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog_home.php">Blog</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                    </div>
+                </nav>
+
+                <aside class="form2">
+                    <h2>Send me a massage!!</h2>
+                    <div class="row">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <p>If you would like to get in touch with me, please send me a message with your name, email, address and a message.  I will get back to you shortly!  Thank you for taking the time to look at my website and portfolio!!!</p>
+                        </div>
+                        <div class="col-md-1"></div>
+                    </div>
+                        <form id="contactForm" class="row g-3" action="process_contact.php" method="post">
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-3">
+                                        <label for="name" class="form-label">Name</label><br>
+                                        <input type="text" class="form-control" id="name" name="name" >
+                                </div>
+                                <div class="col-md-2"></div>
+                                <div class="col-md-3">
+                                        <label for="email" class="form-label">Email:</label><br>
+                                        <input type="email" class="form-control" id="email" name="email">
+                                </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-2"></div>
+                                <div class="col-md-8">        
+                                        <label id="message" for="message">Message:</label><br>
+                                        <textarea id="message" class="form-control" name="message" rows="5"></textarea>
+                                        <br>
+                                        <button type="submit" class="btn btn-primary">Submit</button>
+                                    </div>
+                                <div class="col-md-2"></div>
+                            </div>
+                        </form>    
+                    </aside>
+
+                <section class="contact">
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-4">
+                            <a href="mailto:henri@c-henri.com"><img class="emaillogo" src="Images/email.png" alt="emial logo"><h4>henri@c-henri.com</h4></a><br>
+                            <a href="https://www.instagram.com/c_henri_28/"><img class="instagram" src="Images/instagram.jpg" alt="instagram logo"><h4>c_henri_28</h4></a>
+                        </div>
+                        <div class="col-md-4">
+                            <a href="https://www.linkedin.com/in/chris-henrickson-688475231/"><img class="linkedIn" src="Images/linkedin.png" alt="linked in logo"><h4>Chris Henrickson</h4></a><br>
+                            <a href="https://twitter.com/@coachHenri28?ref_src=twsrc%5Etfw" data-show-count="false"><img class="twitter" src="Images/twitter.png" alt="twitter logo"><h4>@coachHenri28</h4></a><br>
+                            <a href="https://github.com/H3nr1-1" data-show-count="false"><img class="github" src="Images/github.png" alt="Github logo"><h4>H3nr1-1</h4></a>
+                            <br>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>   
+                </section>
+           
+                <footer>
+                    <div class="row">
+                        <div class="col-md-8"></div>
+                        <div class="col-md-4">
+                            <h5>Email me at <br><a class="email" href="mailto:henri@c-henri.com">henri@c-henri.com</a></h5>
+                        </div>
+                    </div>
+                </footer>           
+            </div>
+        </body>
+</html>

@@ -1,0 +1,392 @@
+@import url("https://fonts.googleapis.com/css2?family=Russo+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background: url("Images/stars.jpg");
+  color: antiquewhite;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+#underline {
+  color: royalblue;
+}
+
+#underline:hover {
+  text-decoration: underline;
+}
+
+.container {
+  background: black;
+  border-radius: 0% 0% 10% 10%;
+  box-shadow: 0px 0px 60px royalblue;
+  margin: 0 auto;
+  max-width: 90%;
+}
+
+.logo {
+  width: 100%;
+  margin-top: 20%;
+}
+
+.right {
+  margin-left: 70%;
+  border: 3px solid hotpink;
+  box-shadow: 0px 0px 25px blue;
+  background: black;
+}
+
+.nav-link {
+  font-family: "Raleway", cursive;
+  font-size: 225%;
+  text-decoration: none;
+  color: hotpink;
+  text-shadow: 2px 2px royalblue;
+}
+
+.nav-link:hover{
+  text-decoration: underline;
+}
+
+.offcanvas-body {
+  width: 100%;
+  background-image: url("Images/stars.jpg");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+}
+
+a {
+  color: antiquewhite;
+  text-decoration: none;
+  margin-top: 15%;
+}
+
+h1 {
+  font-family: "Permanent Marker", cursive;
+  text-shadow: 0px 0px 15px blue;
+  text-align: center;
+}
+
+h2 {
+  font-family: "Josefin Sans", sans-serif;
+  text-shadow: 2px 2px hotpink;
+  text-align: center;
+}
+
+section {
+  margin-top: 5%;
+}
+
+p {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 125%;
+}
+
+.history {
+  text-align: left;
+}
+
+.website {
+  width: 75%;
+  animation: website 20s infinite linear;
+}
+
+@keyframes website {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+
+.accordion-button {
+  background: royalblue;
+  color: antiquewhite;
+}
+
+.accordion-body {
+  background: rgb(74, 72, 72);
+  color: antiquewhite;
+}
+
+.about-me {
+  text-decoration: underline;
+}
+
+article {
+  font-family: "Josefin Sans", sans-serif;
+  text-align: center;
+  margin-top: 3%;
+}
+
+.facts {
+  margin-top: 10%;
+}
+
+.family {
+  width: 75%;
+  border: 8px ridge hotpink;
+  box-shadow: 0px 0px 5px whitesmoke;
+}
+
+#no_dot {
+  list-style-type: none;
+}
+
+.left {
+  text-align: left;
+}
+
+#center {
+  text-align: center;
+}
+
+video {
+  width: 100%;
+}
+
+.pc {
+  width: 100%;
+  border: 5px solid blue;
+  box-shadow: 0px 0px 50px blue;
+  border-radius: 15%;
+}
+
+.pc2 {
+  width: 100%;
+  border: 5px solid blue;
+  box-shadow: 0px 0px 50px blue;
+  border-radius: 15%;
+}
+
+aside {
+  margin-top: 5%;
+  text-align: center;
+}
+
+main {
+  text-align: center;
+  margin-top: 2%;
+}
+
+/* Error text for validation plugin */
+.error-text {
+  color: red; 
+  font-size: smaller; 
+  display: block; 
+  margin-top: 5px;
+} 
+
+.error-text2 {
+  color: red; 
+  font-size: smaller; 
+  display: block; 
+  margin-top: 5px;
+  background: white;
+} 
+
+/* Colonial Motel pics */
+/* #col {
+  padding: 2%;
+  width: 100%;
+/* } */
+
+.colIndexPage {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.colIndexPage:hover {
+  box-shadow: 0px 0px 30px white;
+}
+
+.underline {
+  text-decoration: underline;
+}
+
+/* Customer form */
+.form {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  background-image: url("Images/fireworks.jpg");
+  background-size: cover;
+  background-position: center;
+  border: 5px solid antiquewhite;
+  border-radius: 5%;
+  padding: 5%;
+  box-shadow: 0px 0px 50px blue;
+}
+
+.contact_me{
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+}
+
+.form2 {
+  width: 80%;
+  margin-left: 10%;
+  margin-right: 10%;
+  border: 5px solid antiquewhite;
+  border-radius: 5%;
+  padding: 5%;
+  box-shadow: 0px 0px 50px blue;
+}
+
+textarea {
+  width: 100%;
+}
+
+.twitter {
+  width: 31%;
+  border-radius: 20px 20px;
+  margin-top: 3%;
+}
+
+.twitter:hover {
+  box-shadow: 0px 0px 15px antiquewhite;
+}
+
+.github {
+  border-radius: 50%;
+  width: 35%;
+}
+
+.github:hover {
+  box-shadow: 0px 0px 15px antiquewhite;
+}
+
+.emaillogo {
+  border-radius: 50%;
+  width: 35%;
+}
+
+.emaillogo:hover {
+  box-shadow: 0px 0px 15px antiquewhite;
+}
+
+.linkedIn {
+  border-radius: 25% 25%;
+  width: 31%;
+  margin-top: 3%;
+}
+
+.linkedIn:hover {
+  box-shadow: 0px 0px 15px antiquewhite;
+}
+
+.instagram {
+  width: 32%;
+  border-radius: 30%;
+}
+
+.instagram:hover {
+  box-shadow: 0px 0px 15px antiquewhite;
+}
+
+.contact {
+  text-align: center;
+  font-size: 100%;
+  padding: 20%;
+  color: antiquewhite;
+  background-image: url("spotlight.avif");
+  background-size: cover;
+  background-position: center;
+}
+
+footer {
+  font-family: "Russo", sans-serif;
+  padding: 2%;
+  margin-top: 10%;
+}
+
+h5 {
+  text-align: left;
+}
+
+.email {
+  color: antiquewhite;
+  text-shadow: 5px 5px 5px hotpink;
+}
+
+.email:hover{
+  color:hotpink;
+  text-decoration: underline;
+}
+
+/* PC Parts Picker */
+#partsPicker {
+  text-align: left;
+}
+
+.gaming {
+  width: 100%; /* Set the width of your element */
+  background-image: url("Images/gaming_pc.jpg"); /* Replace 'your-image.jpg' with the path to your image */
+  background-size: cover; /* This will make the background image cover the entire element */
+  background-position: center; /* Center the background image */
+}
+
+.gaming img {
+  max-width: 100%; /* Make sure the image doesn't exceed the width of its container */
+  max-height: 100%; /* Make sure the image doesn't exceed the height of its container */
+  display: block; /* Remove any extra spacing below the image */
+  margin: auto; /* Center the image horizontally */
+}
+
+select {
+  width: 300px;
+  display: flex;
+}
+
+label {
+  padding: 1%;
+  font-size: 150%;
+  text-shadow: 2px 2px 2px royalblue;
+}
+
+#totalCost {
+  font-size: 250%;
+  text-decoration: underline;
+  text-shadow: 2px 2px 2px royalblue;
+}
+
+/* Bitcoin price widget */
+
+#bitcoin-widget {
+  width: 200px;
+  margin: auto;
+  background-color: black;
+  border: 1px solid black;
+  color: antiquewhite;
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: 0px 0px 10px hotpink;
+  margin-top: 25%;
+}
+
+#content {
+  padding: 10px;
+}
+
+h2 {
+  margin-top: 0;
+}
+
+#price {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+#update-time {
+  font-size: 12px;
+}

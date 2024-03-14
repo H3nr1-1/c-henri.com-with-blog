@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>	
+        <meta charset="utf-8">
+            <!-- Important Meta info -->
+            <meta name="description" content="Custom static web sites to tell your businesses story and meet your needs!">
+            <meta name="keywords" content="Website Developement, Website Design, Manitowoc, Wisconsin, Web Developement">
+            <meta name="geo.placename" content="Manitowoc, Wisconsin, USA">
+            <meta name="robots" content="index, follow">
+            <meta http-equiv="Content-Language" content="en">
+            <meta property="og:site_name" content="© Chris Henrickson Web Designer">
+            <meta property="og:type" content="website">
+            <meta property="og:title" content="Business - © Chris Henrickson Web Designer">
+            <meta property="og:url" content="https://www.c-henri.com/business">
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <!-- Links to jQuery and Stylesheets -->
+            <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+            <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+            <script src="business_validation.js"></script>
+            <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+            <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+            <link rel="stylesheet" href="stylesheet.css" type="text/css">
+            <!-- page title and logo -->
+            <link rel="icon" href="Images/my-logo.png" type="image/x-icon">
+            <title>Chris Henrickson - Front-End Web Developer - My Portfolio</title>
+    </head>
+       
+	    <body>
+            <div class="container">             
+
+                <header>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-6">
+                            <img class="logo" src="Images/my-logo-2.png" alt="my logo">
+                        </div>
+                        <div class="col-md-4"></div>
+                    </div>
+                </header>
+                <br>
+                <br>
+
+                <nav class="navbar navbar-dark fixed-top">
+                    <div class="container-fluid">
+                        <button class="navbar-toggler right" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                        </button>
+                    <div class="offcanvas offcanvas-end text-bg-dark" tabindex="-1" id="offcanvasDarkNavbar"           aria-labelledby="offcanvasDarkNavbarLabel">
+                    <div class="offcanvas-header">
+                        <button type="button" class="btn-close btn-close-white" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                    </div>
+                    <div class="offcanvas-body">
+                        <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                            <li class="nav-item">
+                                <a class="nav-link" aria-current="page" href="index.html">Home</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="about.html">About Me</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="business.html">Web Design</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="blog_home.php">Blog</a>
+                            </li>  
+                            <li class="nav-item">
+                                <a class="nav-link" href="contact.html">Contact Me</a>
+                            </li>
+                        </ul>
+                    </div>
+                    </div>
+                    </div>
+                </nav>
+
+                <article>
+                    <h1 class="about-me">Professional Web Sites</h1>
+                    <div class="row">
+                        <div class="col-md-2"></div>
+                        <div class="col-md-8">
+                            <p>I am offering custom Web Design projects.  Currently I am focusing on static web sites.  You can pick color scheme, fonts, your own photos, and layouts.  You give me input on how you want the site to look (number or pages, pictures on pages, information, and contact information) and I will create wire frames to show you what the page could look like before I start building it.  Then before it would go live I will send a preveiw of what it will look like (minor tweaks can be made).  Then the website will be uploaded and live!</p>
+                        </div>
+                        <div class="col-md-2"></div>
+                    </div>
+                </article>
+                <br>
+                <br>
+                <br>
+
+                <main>
+                    <div class="row">
+                        <h2 class="underline">Some Projects I have worked on:</h2>
+                        <br>
+                        <div class="col-md-2"></div>
+                        <div class="col-md-3">
+                            <h3 class="underline">Colonial Motel</h3>
+                            <a href="colonial1.html"><img class="colIndexPage" src="Images/colonial.png" alt="link to Colonial Motel Project"></a><br>
+                        </div>
+                        <div class="col-md-7"></div>
+                    </div>
+                </main>
+                <br>
+                <br>
+                
+                <aside class="form">
+                    <form id="businessForm" class="row g-3" action="process_inquiry.php" method="POST">
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <label for="Name" class="form-label"></label>
+                            <input type="text" name="Name" class="form-control" id="Name" placeholder="Name">
+                        </div>
+                        <div class="col-md-1"></div>
+            
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <label for="Email" class="form-label"></label>
+                            <input type="email" name="Email" class="form-control" id="Email" placeholder="Email Address">
+                        </div>
+                        <div class="col-md-1"></div>
+            
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <label for="WebsiteType" class="form-label"></label>
+                            <select name="WebsiteType" id="WebsiteType" class="form-select">
+                                <option disabled selected value="">Select Website Type you are looking for</option>
+                                <option>Landing Page</option>
+                                <option>Static Web Site</option>
+                                <option>Dynamic Web Site</option>
+                            </select>
+                        </div>
+                        <div class="col-md-1"></div>
+            
+                        <div class="col-md-1"></div>
+                        <div class="col-md-5">
+                            <label for="MinBudget" class="form-label"></label>
+                            <input type="text" name="Min" id="Min" class="form-control" placeholder="Budget Range (MIN)">
+                        </div>
+                        <div class="col-md-5">
+                            <label for="MaxBudget" class="form-label"></label>
+                            <input type="text" name="Max" id="Max" class="form-control" placeholder="Budget Range (MAX)">
+                        </div>
+                        <div class="col-md-1"></div>
+            
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <label for="Timeline" class="form-label"></label>
+                            <input type="text" name="Timeline" class="form-control" id="Timeline" placeholder="Timeline of Project Completion" required>
+                        </div>
+                        <div class="col-md-1"></div>
+            
+                        <div class="col-md-1"></div>
+                        <div class="col-md-10">
+                            <label for="Comment">Comment on what type of page you are looking to have made:</label>
+                            <div class="form-outline w-100 mb-4">
+                                <textarea name="Comment" class="form-control" id="Comment" rows="3"></textarea>
+                            </div>
+                        </div>
+                        <div class="col-md-1"></div>
+            
+                        <div class="col-12">
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                        </div>
+                    </form>
+                </aside>
+
+                    <footer>
+                        <div class="row">
+                            <div class="col-md-8"></div>
+                            <div class="col-md-4">
+                                <h5>Email me at <br><a class="email" href="mailto:henri@c-henri.com">henri@c-henri.com</a></h5>
+                            </div>
+                        </div>
+                    </footer>            
+           </div> 
+        </body>
+</html>
+

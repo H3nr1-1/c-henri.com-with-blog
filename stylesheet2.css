@@ -1,0 +1,204 @@
+@import url("https://fonts.googleapis.com/css2?family=Acme&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@1,300&display=swap");
+
+.container {
+  background: white;
+  margin: 0 auto;
+  max-width: 80%;
+}
+
+body {
+  background: #1a2238;
+}
+
+nav {
+  background: #fff;
+  max-width: 80%;
+  margin-left: 10%;
+}
+
+header {
+  font-family: "Acme", sans-serif;
+  text-shadow: 2px 2px #1a2238;
+  padding: 2%;
+}
+
+.return {
+  font-size: 150%;
+  color: royalblue;
+  text-shadow: none;
+}
+
+.headerH1 {
+  text-align: center;
+  color: #9daaf2;
+  text-decoration: underline;
+  font-size: 400%;
+}
+
+.headerH2 {
+  text-align: center;
+  color: #ff6a3d;
+  text-decoration: underline;
+  font-size: 200%;
+}
+
+h3 {
+  color: #ff6a3d;
+  text-shadow: 1px 1px #1a2238;
+  text-align: center;
+}
+
+aside {
+  margin-top: 5%;
+  font-family: "Acme", sans-serif;
+}
+
+.front {
+  width: 100%;
+  border-radius: 30%;
+  margin-left: -3%;
+}
+
+main {
+  padding: 5%;
+  font-family: "Acme", sans-serif;
+}
+
+#contact {
+  text-align: center;
+}
+
+h4 {
+  color: #ff6a3d;
+  text-shadow: 1px 1px #1a2238;
+  text-align: center;
+}
+
+p {
+  font-family: "Acme", sans-serif;
+}
+
+.center {
+  font-family: "Acme", sans-serif;
+  text-align: center;
+  border: 5px solid #f4db7d;
+}
+
+article {
+  margin-top: 5%;
+  font-family: "Acme", sans-serif;
+  margin-left: 5%;
+}
+
+.list {
+  font-family: "Acme", sans-serif;
+  margin-left: 15%;
+}
+
+.lower {
+  margin-top: 5%;
+}
+
+.space {
+  margin-top: 5%;
+}
+
+.pool1 {
+  width: 100%;
+  margin-top: 2%;
+}
+
+.pool2 {
+  width: 100%;
+  margin-left: -25%;
+  margin-top: 2%;
+}
+
+.colonial {
+  width: 100%;
+}
+
+.room1 {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.double {
+  width: 100%;
+  margin-top: 5%;
+}
+
+.space {
+  margin-top: 5%;
+}
+
+#left {
+  margin-left: -1%;
+}
+
+.center-content {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.jet {
+  width: 100%;
+}
+
+#lower {
+  width: 100%;
+}
+
+.golf {
+  width: 100%;
+}
+
+.wizard {
+  width: 100%;
+}
+
+.ripley {
+  width: 100%;
+}
+
+.tom {
+  width: 100%;
+  margin-top: 5%;
+  border-radius: 5% 5%;
+}
+
+li {
+  margin-left: 10%;
+}
+
+.barMenu {
+  margin-left: -30%;
+}
+
+.passport {
+  width: 100%;
+}
+
+.map {
+  width: 100%;
+}
+
+footer {
+  margin-top: 10%;
+  background: #f4db7d;
+}
+
+.highlight {
+  color: red;
+  text-shadow: 1px 1px black;
+}
+
+.shift {
+  margin-left: 25%;
+}
+
+.dells {
+  font-family: "Roboto", sans-serif;
+  color: red;
+}
