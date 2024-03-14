@@ -193,18 +193,22 @@ main {
   background: white;
 } 
 
-/* Colonial Motel pics */
-/* #col {
-  padding: 2%;
-  width: 100%;
-/* } */
 
 .colIndexPage {
   width: 100%;
   margin-top: 5%;
 }
 
+.blogIndexPage {
+  width: 90%;
+  margin-top: 5%;
+}
+
 .colIndexPage:hover {
+  box-shadow: 0px 0px 30px white;
+}
+
+.blogIndexPage:hover {
   box-shadow: 0px 0px 30px white;
 }
 
