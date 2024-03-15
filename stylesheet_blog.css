@@ -23,6 +23,8 @@ body {
 .container{
     margin: 0 auto;
     max-width:100%;
+    background: antiquewhite;
+    color:black;
 }
 
 header{
