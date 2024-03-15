@@ -30,7 +30,7 @@ body {
 header{
     font-family: "Barlow", sans-serif;
     text-align: center;
-    text-shadow: 3px 3px firebrick;
+    text-shadow: 0px 0px 5px firebrick;
     padding: 5%;
 }
 
